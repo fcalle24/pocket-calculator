@@ -3,3 +3,13 @@
 table {
 border: 1px solid black;
 }
+
+.grey {
+  height: 40px;
+  background-color: #C0BABA;
+  border-radius: 0px;
+  border: 1px solid #C0BABA;
+  background-color: transparent;
+  font-size: 20px;
+  color: #333;
+}
