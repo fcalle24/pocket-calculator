@@ -1,12 +1,27 @@
 <style type="text/css">
 
 table {
-border: 1px solid black;
-
+margin-left:auto;
+ margin-right:auto;
+ text-align: center;
 }
 
 button {
   cursor: pointer;
+}
+
+th {
+  font-family: 'digital-7';
+  font-size: 35px;
+  text-align: right;
+   margin-left: auto;
+   margin-right: auto;
+   height: 60px;
+   table-layout: fixed;
+   width: 100px;
+   border-style: none;
+   border-color: black;
+   background-color: #938F8F;
 }
 
 .grey {
@@ -14,7 +29,7 @@ button {
   width: 40px;
   background-color: #C0C0C0;
   font-size: 20px;
-  font-family: Helvetica;
+  font-family: "helvetica";
   color: #333;
   padding: 1px;
   border: 1px solid black;
@@ -41,9 +56,14 @@ button {
 
 .zero {
   height: 40px;
-  width: 40px;
+  width: 90px;
   background-color: #D0D5D5;
   font-size: 20px;
   padding: 1px;
   border: 1px solid black;
+}
+
+@font-face {
+  font-family: "digital-7";
+  src: url("fonts/digital-7.ttf");
 }
