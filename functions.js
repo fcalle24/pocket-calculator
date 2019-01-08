@@ -3,12 +3,23 @@ function AC() {
     document.getElementById("result").innerHTML = clear;
 }
 
-function seven() {
-  let seven = "7";
-  document.getElementById("result").innerHTML += seven;
-}
 
-function eight() {
-  let eight = "8";
-  document.getElementById("result").innerHTML += eight;
+displayNum = "";
+    storedNum = "";
+    operation = 0;
+    queuedOperation = 0;
+    calculationFinished = false;
+
+function digits() {
+  var result = document.getElementById("result");
+   if ((result.value == "") && num == "0") {
+     return;
+}
+else if (calculationFinished == true) {
+        result.value = num;
+        calculationFinished = false;
+    }
+    else {
+     result.value += num;
+   }
 }
