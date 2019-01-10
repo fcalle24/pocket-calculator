@@ -1,25 +1,82 @@
+var a = "";
+var numbers = [];
+var number = "";
+
+function numberPress() {
+  document.getElementById("result").innerHTML = a
+  console.log(a,numbers);
+}
+
 function AC() {
-  let clear = "";
-    document.getElementById("result").innerHTML = clear;
+  a = "";
+  numbers = [];
+  console.log(a,numbers);
+  document.getElementById("result").innerHTML = "0";
 }
 
-
-displayNum = "";
-    storedNum = "";
-    operation = 0;
-    queuedOperation = 0;
-    calculationFinished = false;
-
-function digits() {
-  var result = document.getElementById("result");
-   if ((result.value == "") && num == "0") {
-     return;
+function nine(){
+  a+= "9";
+  numberPress();
 }
-else if (calculationFinished == true) {
-        result.value = num;
-        calculationFinished = false;
-    }
-    else {
-     result.value += num;
-   }
+
+function eight(){
+  a+= "8";
+  numberPress();
+}
+
+function seven(){
+  a+= "7";
+  numberPress();
+}
+
+function six(){
+  a+= "6";
+  numberPress();
+}
+
+function five(){
+  a+= "5";
+  numberPress();
+}
+
+function four(){
+  a+= "4";
+  numberPress();
+}
+
+function three(){
+  a+= "3";
+  numberPress();
+}
+
+function two(){
+  a+= "2";
+  numberPress();
+}
+
+function one(){
+  a+= "1";
+  numberPress();
+}
+
+function zero(){
+  a+= "0";
+  numberPress();
+}
+
+function addition(){
+  document.getElementById("result").innerHTML = "+";
+  a = Number(a);
+   numbers.push(a);
+   numbers.push("+")
+   a = "";
+}
+
+function equals (){
+  Number(a);
+  numbers.push(a);
+ for(i=0;i<numbers.length;i++) {
+ let n = numbers[i];
+ console.log(n);
+ }
 }
