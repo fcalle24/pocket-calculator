@@ -72,11 +72,15 @@ function addition(){
    a = "";
 }
 
-function equals (){
+function equals(){
   Number(a);
   numbers.push(a);
  for(i=0;i<numbers.length;i++) {
  let n = numbers[i];
  console.log(n);
  }
+}
+
+function comma(){
+
 }
