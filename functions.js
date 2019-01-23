@@ -109,4 +109,29 @@ function addition() {
   dec = false;
 }
 
+function minus() {
+  numb1 = a;
+  a = "";
+  sym = "-";
+  document.getElementById("result").innerHTML = sym;
+  console.log(numb1);
+  dec = false;
+}
 
+function mult() {
+  numb1 = a;
+  a = "";
+  sym = "*";
+  document.getElementById("result").innerHTML = sym;
+  console.log(numb1);
+  dec = false;
+}
+
+function divide() {
+  numb1 = a;
+  a = "";
+  sym = "÷";
+  document.getElementById("result").innerHTML = sym;
+  console.log(numb1);
+  dec = false;
+}
