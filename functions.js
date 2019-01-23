@@ -12,6 +12,12 @@ function numberPress() {
   document.getElementById("result").innerHTML = a;
 }
 
+function equals() {
+  numb2 = a
+  if (sym === "-" && numb2 < 0) {
+    sym = "+";
+    numb2 = -1 * numb2;
+  }
 let result = eval(numb1 + sym + numb2);
   b = Number(result);
   b = parseFloat((b).toFixed(2));
