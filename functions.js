@@ -9,15 +9,29 @@ var dec = false;
 var pressAgain = false;
 
 function numberPress() {
-  document.getElementById("result").innerHTML = z
-  console.log(z,a);
+  document.getElementById("result").innerHTML = a;
+}
+
+let result = eval(numb1 + sym + numb2);
+  b = Number(result);
+  b = parseFloat((b).toFixed(2));
+  if (result > 999999999 || result < 0.00001 && result > 0) {
+      z = b.toExponential();
+    } else {
+      z = b;
+    }
+  document.getElementById("result").innerHTML = z;
+  a = result;
+  console.log(result, a, numb1, numb2);
 }
 
 function AC() {
   a = "";
+  b = "";
   z = "";
-  numbers = [];
-  console.log(z,a);
+  numb1 = "";
+  sym = "";
+  result = "";
   document.getElementById("result").innerHTML = "0";
 }
 
