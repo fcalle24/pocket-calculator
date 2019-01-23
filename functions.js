@@ -101,11 +101,10 @@ function decimal(){
 
 
 function addition() {
-  document.getElementById("result").innerHTML = sym;
   numb1 = a;
   a = "";
-  dec = false;
   sym = "+";
+  document.getElementById("result").innerHTML = sym;
   console.log(numb1);
   dec = false;
 }
