@@ -6,7 +6,7 @@ var extra = "0";
 var b;
 var z;
 var dec = false;
-var pressAgain = false;
+var pressagain = false;
 
 function numberPress() {
   document.getElementById("result").innerHTML = a;
