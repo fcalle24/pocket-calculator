@@ -102,7 +102,7 @@ function decimal(){
 
 function addition() {
   document.getElementById("result").innerHTML = sym;
-  numb1 = x;
+  numb1 = a;
   a = "";
   dec = false;
   sym = "+";
