@@ -98,7 +98,6 @@ function zero(){
 function decimal(){
   if (dec === false){
   a+= ".";
-  z+= ".";
   numberPress();
   dec = true;
 }
@@ -106,28 +105,13 @@ function decimal(){
 
 
 function addition() {
-  document.getElementById("result").innerHTML = "+";
-  numbers.push(z);
-  a += "+";
+  document.getElementById("result").innerHTML = sym;
+  numb1 = x;
+  a = "";
   dec = false;
-  z = "";
+  sym = "+";
+  console.log(numb1);
+  dec = false;
 }
 
-function equals() {
-  numbers.push(z);
-  var numb = eval(a);
-  a = numb;
-  console.log(numb, a);
-  a = "";
 
-  document.getElementById("result").innerHTML = numb;
-
-  z = "";
-if (Number.isNaN(eval(a))) {
-  a = "";
-  z = "";
-  numbers= [];
-  number = "";
-    document.getElementById("result").innerHTML = "ERROR";
-}
-}
