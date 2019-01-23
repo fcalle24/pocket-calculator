@@ -109,7 +109,7 @@ function addition() {
   dec = false;
 }
 
-function minus() {
+function subtr() {
   numb1 = a;
   a = "";
   sym = "-";
@@ -127,7 +127,7 @@ function mult() {
   dec = false;
 }
 
-function divide() {
+function division() {
   numb1 = a;
   a = "";
   sym = "÷";
