@@ -37,61 +37,51 @@ function AC() {
 
 function nine(){
   a+= "9";
-  z+= "9"
   numberPress();
 }
 
 function eight(){
   a+= "8";
-  z+= "8";
   numberPress();
 }
 
 function seven(){
   a+= "7";
-  z+= "7";
   numberPress();
 }
 
 function six(){
   a+= "6";
-  z+= "6";
   numberPress();
 }
 
 function five(){
   a+= "5";
-  z+= "5";
   numberPress();
 }
 
 function four(){
   a+= "4";
-  z+= "4";
   numberPress();
 }
 
 function three(){
   a+= "3";
-  z+= "3";
   numberPress();
 }
 
 function two(){
   a+= "2";
-  z+= "2";
   numberPress();
 }
 
 function one(){
   a+= "1";
-  z+= "1";
   numberPress();
 }
 
 function zero(){
   a+= "0";
-  z+= "0";
   numberPress();
 }
 
