@@ -1,8 +1,12 @@
 var a = "";
-var numbers = [];
-var number = "";
-var z = "";
-var dec = false
+var numb1;
+var numb2;
+var sym;
+var extra = "0";
+var b;
+var z;
+var dec = false;
+var pressAgain = false;
 
 function numberPress() {
   document.getElementById("result").innerHTML = z
