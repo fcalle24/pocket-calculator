@@ -36,6 +36,7 @@ function AC() {
   b = "";
   z = "";
   numb1 = "";
+  dec = false;
   sym = "";
   result = "";
   document.getElementById("result").innerHTML = "0";
@@ -134,4 +135,18 @@ function division() {
   document.getElementById("result").innerHTML = sym;
   console.log(numb1);
   dec = false;
+}
+
+function neg() {
+  a = Number(a * -1);
+  a = String(a);
+  console.log(a)
+  numberPress();
+}
+
+function perc() {
+  a = (a / 100);
+  a = String(a);
+  console.log(a);
+  numberPress();
 }
